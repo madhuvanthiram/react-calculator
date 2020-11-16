@@ -2,24 +2,34 @@ import React, { Component } from "react";
 import "./App.css";
 
 class ResultCmp extends Component {
-  state = {};
+  state = {
+    finalresult:""
+  };
+  click()
+  {
+  if (this.props.btnvalue === "=")
+
+   {
+    this.calculate();
+   
+  }
+  }
+
+
 
   render() {
-    const { btnvalue } = this.props;
+    const { finalresult } = this.props;
 
+//console.log(btnvalue)
     //basic calculation
 
-    if (btnvalue.includes("=")) {
-      var newbtnvalue = btnvalue;
-      newbtnvalue = newbtnvalue.replace("=", "");
-      var finalresult = eval(newbtnvalue);
-    }
-
+    
     return (
       <div className="result">
         <p>
-          {btnvalue}
-          {finalresult}
+      
+         {finalresult}
+      
         </p>
       </div>
     );

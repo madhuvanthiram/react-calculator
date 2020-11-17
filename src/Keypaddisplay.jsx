@@ -6,12 +6,13 @@ class Keypaddisplay extends Component {
   state = {
     isclicked: false,
     myval: "",
-    myfinalval:"",
+   
   };
 
   handleClick(valuebtn) {
-    this.setState({ isclicked: true });
+   // this.setState({ isclicked: true });
     if (valuebtn === "=") {
+      this.setState({ isclicked: true });
       this.setState({ myval: eval(this.state.myval) });
     } else {
       this.setState((state) => {
@@ -30,9 +31,11 @@ class Keypaddisplay extends Component {
   }
   handleClickBackspace(valuebtn) {
     this.setState({ isclicked: true });
-    this.setState((state) => {
-      return { myval: state.myval.slice(0, -1) };
-    });
+  
+
+    this.setState({
+      myval: this.state.myval.slice(0, -1)
+  })
   }
 
   render() {
@@ -42,10 +45,10 @@ class Keypaddisplay extends Component {
       <div className="App">
         <header className="App-header">
           <h1>
-            {" "}
+          
             <b>Calculator using React</b>
           </h1>
-          {passresultcmp}
+          {passresultcmp} 
 
           <div>
             <button onClick={this.handleClick.bind(this, 7)} button>
@@ -106,12 +109,13 @@ class Keypaddisplay extends Component {
           </div>
 
           <div>
-            <button onClick={this.handleClickDelete.bind(this, "C")} button>
-              C
-            </button>
-            <button onClick={this.handleClickBackspace.bind(this, "CE")} button>
+           
+            {!this.state.isclicked?  <button onClick={this.handleClickBackspace.bind(this, "CE")} button>
               CE
-            </button>
+            </button>: <button onClick={this.handleClickDelete.bind(this, "AC")} button>
+              AC
+            </button>}  
+           
           </div>
         </header>
       </div>

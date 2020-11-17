@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Keypaddisplay from './Keypaddisplay'
+import ResultCmp from './ResultCmp'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Keypaddisplay />
+   
   </React.StrictMode>,
   document.getElementById('root')
 );

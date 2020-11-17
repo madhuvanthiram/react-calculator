@@ -3,18 +3,8 @@ import "./App.css";
 
 class ResultCmp extends Component {
   state = {
-    finalresult:""
-  };
-  click()
-  {
-  if (this.props.btnvalue === "=")
-
-   {
-    this.calculate();
    
   }
-  }
-
 
 
   render() {
@@ -26,11 +16,11 @@ class ResultCmp extends Component {
     
     return (
       <div className="result">
-        <p>
+     
       
          {finalresult}
+        
       
-        </p>
       </div>
     );
   }

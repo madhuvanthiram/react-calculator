@@ -10,16 +10,16 @@ class ResultCmp extends Component {
   render() {
     const { finalresult } = this.props;
 
-//console.log(btnvalue)
     //basic calculation
 
     
     return (
       <div className="result">
-     
+     <p>
       
          {finalresult}
         
+      </p>  
       
       </div>
     );

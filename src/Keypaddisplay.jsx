@@ -10,7 +10,7 @@ class Keypaddisplay extends Component {
   };
 
   handleClick(valuebtn) {
-   // this.setState({ isclicked: true });
+    this.setState({ isclicked: false });
     if (valuebtn === "=") {
       this.setState({ isclicked: true });
       this.setState({ myval: eval(this.state.myval) });
@@ -24,13 +24,13 @@ class Keypaddisplay extends Component {
   }
 
   handleClickDelete(valuebtn) {
-    this.setState({ isclicked: true });
+    this.setState({ isclicked: false });
     this.setState((state) => {
       return { myval: "" };
     });
   }
   handleClickBackspace(valuebtn) {
-    this.setState({ isclicked: true });
+    //this.setState({ isclicked: true });
   
 
     this.setState({

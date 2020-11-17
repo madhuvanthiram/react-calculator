@@ -48,12 +48,12 @@ button{
  
    
 .result {
-  height: 60px;
+  height: 30px;
 
   width: 100%;
 }
 .result p {
-  font-size: 40px;
+  font-size: 10px;
   margin: 5px;
 
 }

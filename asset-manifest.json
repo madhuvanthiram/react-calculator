@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-deploynew/static/css/main.0788b332.chunk.css",
-    "main.js": "/react-deploynew/static/js/main.2a87f67f.chunk.js",
-    "main.js.map": "/react-deploynew/static/js/main.2a87f67f.chunk.js.map",
-    "runtime-main.js": "/react-deploynew/static/js/runtime-main.1e989c81.js",
-    "runtime-main.js.map": "/react-deploynew/static/js/runtime-main.1e989c81.js.map",
-    "static/js/2.468c04e5.chunk.js": "/react-deploynew/static/js/2.468c04e5.chunk.js",
-    "static/js/2.468c04e5.chunk.js.map": "/react-deploynew/static/js/2.468c04e5.chunk.js.map",
-    "static/js/3.18ebb341.chunk.js": "/react-deploynew/static/js/3.18ebb341.chunk.js",
-    "static/js/3.18ebb341.chunk.js.map": "/react-deploynew/static/js/3.18ebb341.chunk.js.map",
-    "index.html": "/react-deploynew/index.html",
-    "static/css/main.0788b332.chunk.css.map": "/react-deploynew/static/css/main.0788b332.chunk.css.map",
-    "static/js/2.468c04e5.chunk.js.LICENSE.txt": "/react-deploynew/static/js/2.468c04e5.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/react-deploynew/static/media/logo.103b5fa1.svg"
+    "main.css": "/react-calculator/static/css/main.2a093925.chunk.css",
+    "main.js": "/react-calculator/static/js/main.d12038ff.chunk.js",
+    "main.js.map": "/react-calculator/static/js/main.d12038ff.chunk.js.map",
+    "runtime-main.js": "/react-calculator/static/js/runtime-main.cdc2f26f.js",
+    "runtime-main.js.map": "/react-calculator/static/js/runtime-main.cdc2f26f.js.map",
+    "static/js/2.468c04e5.chunk.js": "/react-calculator/static/js/2.468c04e5.chunk.js",
+    "static/js/2.468c04e5.chunk.js.map": "/react-calculator/static/js/2.468c04e5.chunk.js.map",
+    "static/js/3.18ebb341.chunk.js": "/react-calculator/static/js/3.18ebb341.chunk.js",
+    "static/js/3.18ebb341.chunk.js.map": "/react-calculator/static/js/3.18ebb341.chunk.js.map",
+    "index.html": "/react-calculator/index.html",
+    "static/css/main.2a093925.chunk.css.map": "/react-calculator/static/css/main.2a093925.chunk.css.map",
+    "static/js/2.468c04e5.chunk.js.LICENSE.txt": "/react-calculator/static/js/2.468c04e5.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/react-calculator/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e989c81.js",
+    "static/js/runtime-main.cdc2f26f.js",
     "static/js/2.468c04e5.chunk.js",
-    "static/css/main.0788b332.chunk.css",
-    "static/js/main.2a87f67f.chunk.js"
+    "static/css/main.2a093925.chunk.css",
+    "static/js/main.d12038ff.chunk.js"
   ]
 }
